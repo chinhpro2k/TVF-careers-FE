@@ -1,0 +1,33 @@
+@import "components/bannerStyle.css";
+@import "components/banner2Style.css";
+@import "components/recruitStyle.css";
+@import "components/whyStyle.css";
+@import "components/joinStyle.css";
+@import "components/newStyle.css";
+@import "components/registerStyle.css";
+@import "components/footerStyle.css";
+@import "components/headerStyle.css";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+@media (min-width: 1700px){
+    .container{
+        max-width: 1400px!important;
+    }
+}
+#home{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+

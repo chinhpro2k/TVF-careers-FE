@@ -1,0 +1,133 @@
+/*========register==========*/
+#home .register{
+    width: 100%;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/public/assets/images/register.png");
+}
+#home .register img{
+    width: 100%;
+    height: 100%;
+}
+#home .register .content-register{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#home .register .content-register .title-register{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+#home .register .content-register .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home .register .content-register .form .input-form input{
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+#home .register .content-register .form .input-form input:focus{
+    outline: none;
+}
+#home .register .content-register .form .form-select{
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+#home .register .content-register .form .register-btn{
+    background: #FFC200;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    padding: 16px 115px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #222222;
+}
+#home .register .register-mobile{
+    display: none;
+    visibility: hidden;
+}
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 425px) {
+}
+
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 768px) {
+    #home .register .register-desktop{
+        display: none;
+        visibility: hidden;
+    }
+    #home .register .register-mobile{
+        display: block;
+        visibility: visible;
+        background-image: url("/public/assets/images/background-mobile-register.png");
+    }
+    #home .register .content-register{
+        position: relative;
+        padding: 40px 10px;
+    }
+    #home .register .content-register .form .input-form{
+        width: 100%;
+    }
+    #home .register .content-register .form .input-form input{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    #home .register .content-register .form .form-select{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    #home .register .content-register .title-register{
+        margin-bottom: 20px;
+    }
+    #home .register .content-register .form .register-btn{
+        padding: 10px 115px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+@media screen and (min-width: 1366px) and (max-width: 1440px) {
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+}
+@media screen and (max-width: 539px) {
+}
+
+@media screen and (min-width: 540px) and (max-width: 768px) {
+}
+@media screen and (min-width: 1700px) {
+}
